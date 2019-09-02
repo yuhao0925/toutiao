@@ -29,6 +29,7 @@ def set_db_to_write(func):
     return wrapper
 
 
+# 登录装饰器
 def login_required(func):
     # 用于 装饰需要登录后才能访问的接口
     # 验证用户的user_id, 如果g对象中user_id是None, 返回401 通知客户端重新登录

@@ -32,3 +32,29 @@ class PhotoResource(Resource):
         ret_dict = {
             'photo_url':'{}/{}'.format(current_app.config['QINIU_DOMAIN'],file_name)}
         return ret_dict
+
+
+class CurrentUserResource(Resource):
+    # 检查登录
+    method_decorators = [login_required]
+    # 请求钩子在utils.middlewares已经实现，把token中的user_id写入到g对象中
+    def get(self):
+        # 返回当前用户的信息
+        # 从缓存和持久化中获取
+        # 代码执行到这里时，说明就应该已经有g.user_id
+        ret_dict={
+            'user_id': g.user_id,
+            'user_name': g.user_name,
+            'user_photo':g.user_photo,
+            'certificate': 'certificate',
+            'introduction': 'introduction',
+            # 持久化数据
+            'arts_count': 0,
+            'following_count': 0
+        }
+
+
+
+        return ret_dict
+
+
