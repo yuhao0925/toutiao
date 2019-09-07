@@ -3,7 +3,7 @@ from flask_restful import Api
 
 from . import profile
 from . import passport
-# from . import following
+from . import following
 # from . import following, channel, blacklist, profile, figure
 from utils.output import output_json
 
@@ -20,8 +20,8 @@ user_api.add_resource(passport.AuthorizationResource, '/v1_0/authorizations',
 # user_api.add_resource(following.FollowingListResource, '/v1_0/user/followings',
 #                       endpoint='Followings')
 
-# user_api.add_resource(following.FollowingResource, '/v1_0/user/followings/<int(min=1):target>',
-#                       endpoint='Following')
+user_api.add_resource(following.FollowingResource, '/v1_0/user/followings/<int(min=1):target>',
+                      endpoint='Following')
 
 # user_api.add_resource(following.FollowerListResource, '/v1_0/user/followers',
 #                       endpoint='Followers')

@@ -94,6 +94,7 @@ class Relation(db.Model):
     utime = db.Column('update_time', db.DateTime, default=datetime.now, onupdate=datetime.now, doc='更新时间')
 
 
+#--------------ORM SQL语句操作-------------
 @app.route('/get_all')
 def get_all():
     # 查询所有用户

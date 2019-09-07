@@ -1,12 +1,15 @@
 from flask import g,current_app
 from flask_restful import Resource
 from flask_restful.reqparse import RequestParser
-
 from models import db
 from models.user import User
 from utils.decorators import login_required
 from utils.parser import image_file
 from utils.storage import upload_image
+
+
+from cache.user import UserProfileCache
+from cache.statistic import UserArticleCountStorage,UserFollowingCountStorage
 
 
 class PhotoResource(Resource):
@@ -34,6 +37,7 @@ class PhotoResource(Resource):
         return ret_dict
 
 
+
 class CurrentUserResource(Resource):
     # 检查登录
     method_decorators = [login_required]
@@ -42,19 +46,22 @@ class CurrentUserResource(Resource):
         # 返回当前用户的信息
         # 从缓存和持久化中获取
         # 代码执行到这里时，说明就应该已经有g.user_id
+        ret = UserProfileCache().get(user_id=g.user_id)
         ret_dict={
             'user_id': g.user_id,
-            'user_name': g.user_name,
-            'user_photo':g.user_photo,
-            'certificate': 'certificate',
-            'introduction': 'introduction',
-            # 持久化数据
-            'arts_count': 0,
-            'following_count': 0
+            'user_name': ret['user_name'],
+            'user_photo':ret['user_photo'],
+            'certificate': ret['certificate'],
+            'introduction': ret['introduction'],
+            # 持久化存储
+            'arts_count':UserArticleCountStorage.get(g.user_id),
+            'following_count': UserFollowingCountStorage.get(g.user_id)
         }
-
-
-
         return ret_dict
 
+    def delete(self):
+        ret = UserProfileCache().exists(user_id=g.user_id)
+        if ret:
+            UserProfileCache().clear(user_id=g.user_id)
+        return {'message':'ok'}
 

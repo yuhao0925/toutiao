@@ -3,7 +3,7 @@ from redis.exceptions import RedisError
 from sqlalchemy.exc import SQLAlchemyError
 import grpc
 from elasticsearch5 import Elasticsearch
-# import socketio
+import socketio
 
 
 def create_flask_app(config, enable_config_file=False):
@@ -72,7 +72,7 @@ def create_app(config, enable_config_file=False):
     )
 
     # socket.io
-    # app.sio_maneger = socketio.KombuManager(app.config['RABBITMQ'], write_only=True)
+    app.sio_maneger = socketio.KombuManager(app.config['RABBITMQ'], write_only=True)
 
     # MySQL数据库连接初始化
     from models import db
