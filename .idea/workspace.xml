@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="920ff3cd-e1ae-48db-8b02-ad8cc9761b7b" name="Default Changelist" comment="111">
-      <change afterPath="$PROJECT_DIR$/test/10_unittest/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/2_redis/test_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/9_es/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/9_es/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toutiao/resources/search/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/7_grpc/1111.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/im/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/im/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/1_sqlalchemy/test_sqlalchemys.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/1_sqlalchemy/test_sqlalchemys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/4_qiniuyun/test_qiniuyun.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/4_qiniuyun/test_qiniuyun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/8_sio/test_sio_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/8_sio/test_sio_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toutiao/resources/search/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao/resources/search/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toutiao/resources/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao/resources/user/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toutiao/resources/user/following.py" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao/resources/user/following.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/utils/storage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="69">
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding>
                 <element signature="e#0#71#0" expanded="true" />
               </folding>
@@ -151,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mis/__init__.py" />
         <option value="$PROJECT_DIR$/mp/__init__.py" />
         <option value="$PROJECT_DIR$/toutiao/resources/news/__init__.py" />
         <option value="$PROJECT_DIR$/toutiao/resources/notice/__init__.py" />
@@ -202,12 +188,12 @@
         <option value="$PROJECT_DIR$/test/1_sqlalchemy/test_sqlalchemys.py" />
         <option value="$PROJECT_DIR$/test/4_qiniuyun/test_qiniuyun.py" />
         <option value="$PROJECT_DIR$/common/utils/storage.py" />
+        <option value="$PROJECT_DIR$/test/7_grpc/1111.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="558" />
-    <option name="y" value="1" />
+    <option name="x" value="497" />
     <option name="width" value="1322" />
     <option name="height" value="1020" />
   </component>
@@ -251,12 +237,13 @@
               <item name="toutiao-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="toutiao-backend" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="4_qiniuyun" type="462c0819:PsiDirectoryNode" />
+              <item name="7_grpc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="toutiao-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="toutiao-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="toutiao" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="9_es" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,7 +267,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../toutiao_test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -565,7 +552,7 @@
       <workItem from="1575811770617" duration="1073000" />
       <workItem from="1575855945378" duration="5354000" />
       <workItem from="1575964961710" duration="845000" />
-      <workItem from="1576668854858" duration="2285000" />
+      <workItem from="1576668854858" duration="3061000" />
     </task>
     <task id="LOCAL-00221" summary="fix article id redis bytes bug">
       <created>1552790764260</created>
@@ -931,7 +918,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1090126000" />
+    <option name="totallyTimeSpent" value="1090902000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -943,7 +930,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="447" y="1" width="1057" height="816" extended-state="0" />
+    <frame x="398" y="0" width="1057" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50120485" side_tool="true" weight="0.15808298" />
@@ -1169,13 +1156,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/rpc/reco_pb2_grpc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/rpc/reco_pb2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5497">
@@ -1505,10 +1485,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/7_grpc/1111.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/utils/storage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="69">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
             <element signature="e#0#71#0" expanded="true" />
           </folding>
