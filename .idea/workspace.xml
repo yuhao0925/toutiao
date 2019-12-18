@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="920ff3cd-e1ae-48db-8b02-ad8cc9761b7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.en.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/cache/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/cache/statistic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/rpc/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/rpc/reco.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/rpc/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im/im_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/im/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/5-cache/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/6-aps/aps_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/8_sio/test_sio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/8_sio/test_sio_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toutiao/resources/user/following.py" afterDir="false" />
+    <list default="true" id="920ff3cd-e1ae-48db-8b02-ad8cc9761b7b" name="Default Changelist" comment="111">
+      <change afterPath="$PROJECT_DIR$/test/10_unittest/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/2_redis/test_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/9_es/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/9_es/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toutiao/resources/search/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/cache/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/cache/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/im/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/im/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/1_sqlalchemy/test_sqlalchemys.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/1_sqlalchemy/test_sqlalchemys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toutiao/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/4_qiniuyun/test_qiniuyun.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/4_qiniuyun/test_qiniuyun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/8_sio/test_sio_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/8_sio/test_sio_url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toutiao/resources/search/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao/resources/search/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toutiao/resources/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao/resources/user/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toutiao/resources/user/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao/resources/user/profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toutiao/resources/user/following.py" beforeDir="false" afterPath="$PROJECT_DIR$/toutiao/resources/user/following.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,36 +51,36 @@
     <favorites_list name="toutiao-backend" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/4_qiniuyun/test_qiniuyun.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding>
+                <element signature="e#657#679#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/toutiao/resources/user/following.py">
+        <entry file="file://$PROJECT_DIR$/common/utils/storage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
-                <element signature="e#15#26#0" expanded="true" />
+                <element signature="e#0#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/im/main.py">
+        <entry file="file://$PROJECT_DIR$/common/settings/default.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#89#126#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/8_sio/test_sio_url.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            <state relative-caret-position="-1016">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -159,22 +151,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/toutiao/resources/news/collection.py" />
-        <option value="$PROJECT_DIR$/toutiao/resources/news/comment.py" />
-        <option value="$PROJECT_DIR$/common/cache/article.py" />
-        <option value="$PROJECT_DIR$/common/toutiao_settings.py" />
-        <option value="$PROJECT_DIR$/common/rpc/recommend/user_reco_pb2_grpc.py" />
-        <option value="$PROJECT_DIR$/mp/resources/news/article.py" />
-        <option value="$PROJECT_DIR$/mis/resources/information/article.py" />
         <option value="$PROJECT_DIR$/mis/__init__.py" />
         <option value="$PROJECT_DIR$/mp/__init__.py" />
         <option value="$PROJECT_DIR$/toutiao/resources/news/__init__.py" />
         <option value="$PROJECT_DIR$/toutiao/resources/notice/__init__.py" />
-        <option value="$PROJECT_DIR$/toutiao/resources/search/__init__.py" />
         <option value="$PROJECT_DIR$/test/test.py" />
         <option value="$PROJECT_DIR$/test/2_sqlalchemy/test_sqlalchemy.py" />
         <option value="$PROJECT_DIR$/test/2_sqlalchemy/test_sqlalchemys.py" />
-        <option value="$PROJECT_DIR$/test/2_redis/test_1.py" />
         <option value="$PROJECT_DIR$/test/2_redis/2-redis.cluster.py" />
         <option value="$PROJECT_DIR$/test/2_redis/2-test.sentinel.py" />
         <option value="$PROJECT_DIR$/test/2_redis/3_redis_cluster.py" />
@@ -183,11 +166,9 @@
         <option value="$PROJECT_DIR$/toutiao/resources/user/passport.py" />
         <option value="$PROJECT_DIR$/test/test_jwt/test_f_01_jwt.py" />
         <option value="$PROJECT_DIR$/common/settings/default.py" />
-        <option value="$PROJECT_DIR$/test/4_qiniuyun/test_qiniuyun.py" />
         <option value="$PROJECT_DIR$/test/4_qiniuyun/test_storage.py" />
         <option value="$PROJECT_DIR$/common/utils/parser.py" />
         <option value="$PROJECT_DIR$/common/utils/middlewares.py" />
-        <option value="$PROJECT_DIR$/common/utils/storage.py" />
         <option value="$PROJECT_DIR$/common/utils/decorators.py" />
         <option value="$PROJECT_DIR$/common/cache/constants.py" />
         <option value="$PROJECT_DIR$/test/4_qiniuyun/test_upload.api.py" />
@@ -197,26 +178,38 @@
         <option value="$PROJECT_DIR$/test/6-aps/aps_data.py" />
         <option value="$PROJECT_DIR$/common/cache/statistic.py" />
         <option value="$PROJECT_DIR$/common/models/news.py" />
-        <option value="$PROJECT_DIR$/test/1_sqlalchemy/test_sqlalchemys.py" />
         <option value="$PROJECT_DIR$/scheduler/main.py" />
         <option value="$PROJECT_DIR$/common/rpc/reco.proto" />
         <option value="$PROJECT_DIR$/common/rpc/server.py" />
         <option value="$PROJECT_DIR$/common/rpc/client.py" />
         <option value="$PROJECT_DIR$/im/im_server.py" />
-        <option value="$PROJECT_DIR$/toutiao/resources/user/__init__.py" />
-        <option value="$PROJECT_DIR$/toutiao/__init__.py" />
         <option value="$PROJECT_DIR$/im/server.py" />
         <option value="$PROJECT_DIR$/test/8_sio/test_sio.py" />
+        <option value="$PROJECT_DIR$/test/8_sio/test_sio_url.py" />
+        <option value="$PROJECT_DIR$/toutiao/resources/user/__init__.py" />
         <option value="$PROJECT_DIR$/toutiao/resources/user/following.py" />
         <option value="$PROJECT_DIR$/im/main.py" />
-        <option value="$PROJECT_DIR$/test/8_sio/test_sio_url.py" />
+        <option value="$PROJECT_DIR$/test/2_redis/test_1.py" />
+        <option value="$PROJECT_DIR$/toutiao/__init__.py" />
+        <option value="$PROJECT_DIR$/test/9_es.py" />
+        <option value="$PROJECT_DIR$/toutiao/resources/search/__init__.py" />
+        <option value="$PROJECT_DIR$/test/9_es/test.py" />
+        <option value="$PROJECT_DIR$/test/9_es/test1.py" />
+        <option value="$PROJECT_DIR$/test/10_unittest/test.py" />
+        <option value="$PROJECT_DIR$/toutiao/resources/search/search.py" />
+        <option value="$PROJECT_DIR$/test/2_redis/test_2.py" />
+        <option value="$PROJECT_DIR$/test/1_sqlalchemy/TEST.py" />
+        <option value="$PROJECT_DIR$/test/1_sqlalchemy/test_sqlalchemys.py" />
+        <option value="$PROJECT_DIR$/test/4_qiniuyun/test_qiniuyun.py" />
+        <option value="$PROJECT_DIR$/common/utils/storage.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="481" />
-    <option name="width" value="1245" />
-    <option name="height" value="1015" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="558" />
+    <option name="y" value="1" />
+    <option name="width" value="1322" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -235,7 +228,19 @@
             <path>
               <item name="toutiao-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="toutiao-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="im" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toutiao-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toutiao-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toutiao-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toutiao-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="toutiao-backend" type="b2602c69:ProjectViewProjectNode" />
@@ -246,7 +251,12 @@
               <item name="toutiao-backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="toutiao-backend" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="8_sio" type="462c0819:PsiDirectoryNode" />
+              <item name="4_qiniuyun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toutiao-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toutiao-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="toutiao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,22 +280,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../toutiao_test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/common/models" />
-      <recent name="$PROJECT_DIR$/common/utils/snowflake" />
-      <recent name="$PROJECT_DIR$/toutiao/resources/user" />
-      <recent name="$PROJECT_DIR$/toutiao/resources/search" />
-      <recent name="$PROJECT_DIR$/toutiao/resources/notice" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\toutiao-backend\test\4_qiniuyun" />
       <recent name="$PROJECT_DIR$/common/rpc/recommend/protos" />
       <recent name="$PROJECT_DIR$/common/rpc/recommend" />
       <recent name="$PROJECT_DIR$/mp/resources/news" />
       <recent name="$PROJECT_DIR$/scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/models" />
+      <recent name="$PROJECT_DIR$/common/utils/snowflake" />
+      <recent name="$PROJECT_DIR$/toutiao/resources/user" />
+      <recent name="$PROJECT_DIR$/toutiao/resources/search" />
+      <recent name="$PROJECT_DIR$/toutiao/resources/notice" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,6 +311,51 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.test_sqlalchemys">
+    <configuration name="2_test.sentinel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="toutiao-backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/2_redis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/2_redis/2_test.sentinel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TEST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="toutiao-backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="test/1_sqlalchemy/TEST.py" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="false" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="-m flask run -h 0.0.0.0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="toutiao-backend" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,7 +378,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="im_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="toutiao-backend" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,74 +386,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/im" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/2_redis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/im/im_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/2_redis/test_2.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="toutiao-backend" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/im" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/im/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="toutiao-backend" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="FLASK_APP" value="toutiao/main.py" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="false" />
-      <option name="ADD_SOURCE_ROOTS" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="-m flask run -h 0.0.0.0" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_sio_url" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="toutiao-backend" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/8_sio" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/8_sio/test_sio_url.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -410,10 +405,11 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
-        <env name="FLASK_APP" value="test/1_sqlalchemy/test_sqlalchemys.py" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="test/1_sqlalchemy/test_sqlalchemys" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="false" />
       <option name="ADD_SOURCE_ROOTS" value="false" />
@@ -427,20 +423,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="toutiao-backend" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/10_unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/10_unittest/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.im_server" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.test_sio_url" />
+      <item itemvalue="Python.TEST" />
+      <item itemvalue="Python.test_2" />
+      <item itemvalue="Python.2_test.sentinel" />
       <item itemvalue="Python.test_sqlalchemys" />
+      <item itemvalue="Python tests.Unittests in test.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.test_sqlalchemys" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.test_sio_url" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.im_server" />
+        <item itemvalue="Python.2_test.sentinel" />
+        <item itemvalue="Python.test_2" />
+        <item itemvalue="Python.TEST" />
+        <item itemvalue="Python tests.Unittests in test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +539,33 @@
       <workItem from="1567816070788" duration="1766000" />
       <workItem from="1567839476254" duration="5218000" />
       <workItem from="1567844826240" duration="8940000" />
-      <workItem from="1567865829707" duration="3801000" />
+      <workItem from="1567865829707" duration="4880000" />
+      <workItem from="1567905925043" duration="5086000" />
+      <workItem from="1567924638549" duration="1271000" />
+      <workItem from="1567992340931" duration="1830000" />
+      <workItem from="1568042677020" duration="599000" />
+      <workItem from="1568167957902" duration="612000" />
+      <workItem from="1568279290028" duration="28000" />
+      <workItem from="1568365724185" duration="407000" />
+      <workItem from="1568452573459" duration="1363000" />
+      <workItem from="1569399368734" duration="1048000" />
+      <workItem from="1569635828711" duration="121000" />
+      <workItem from="1570179058331" duration="3016000" />
+      <workItem from="1570258414229" duration="4805000" />
+      <workItem from="1571187255888" duration="45000" />
+      <workItem from="1571188546011" duration="22000" />
+      <workItem from="1571812617629" duration="765000" />
+      <workItem from="1574060221887" duration="12000" />
+      <workItem from="1574061019191" duration="25000" />
+      <workItem from="1574061054015" duration="11000" />
+      <workItem from="1575179418123" duration="1835000" />
+      <workItem from="1575805364325" duration="110000" />
+      <workItem from="1575809117657" duration="68000" />
+      <workItem from="1575810117718" duration="1612000" />
+      <workItem from="1575811770617" duration="1073000" />
+      <workItem from="1575855945378" duration="5354000" />
+      <workItem from="1575964961710" duration="845000" />
+      <workItem from="1576668854858" duration="2285000" />
     </task>
     <task id="LOCAL-00221" summary="fix article id redis bytes bug">
       <created>1552790764260</created>
@@ -876,8 +913,25 @@
     <option name="localTasksCounter" value="270" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_SuggestionTest - 2019.10.05 at 15h 51m 15s.xml">
+      <configuration name="Unittests for test.SuggestionTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_SuggestionTest - 2019.10.05 at 15h 51m 32s.xml">
+      <configuration name="Unittests for test.SuggestionTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_SuggestionTest - 2019.10.05 at 15h 51m 38s.xml">
+      <configuration name="Unittests for test.SuggestionTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_SuggestionTest - 2019.10.05 at 15h 53m 37s.xml">
+      <configuration name="Unittests for test.SuggestionTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.10.05 at 15h 56m 31s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1054799000" />
+    <option name="totallyTimeSpent" value="1090126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -889,15 +943,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="543" y="0" width="996" height="812" extended-state="0" />
+    <frame x="447" y="1" width="1057" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50120485" side_tool="true" weight="0.15808298" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.3297568" />
-      <window_info content_ui="combo" x="36" y="-909" width="167" height="830" id="Project" order="2" sideWeight="0.49879518" weight="0.20788912" />
+      <window_info active="true" content_ui="combo" x="36" y="-909" width="167" height="830" id="Project" order="2" sideWeight="0.49879518" visible="true" weight="0.23923925" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3867647" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67158175" weight="0.3512748" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67158175" weight="0.35977337" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.72289157" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -907,10 +961,10 @@
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49463806" weight="0.41501418" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4966488" side_tool="true" weight="0.39518413" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.6461126" weight="0.49291784" />
-      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32647058" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.6461126" weight="0.37252125" />
+      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32456142" />
       <window_info anchor="bottom" id="Statistic" order="14" weight="0.42289156" />
-      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.5033512" weight="0.388102" />
+      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.5033512" weight="0.53966004" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.50120485" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -922,29 +976,30 @@
     <layout-to-restore>
       <window_info id="Structure" order="0" sideWeight="0.50120485" side_tool="true" weight="0.15808298" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.3297568" />
-      <window_info active="true" content_ui="combo" x="36" y="-909" width="167" height="830" id="Project" order="2" sideWeight="0.49879518" visible="true" weight="0.16452074" />
+      <window_info active="true" content_ui="combo" x="36" y="-909" width="167" height="830" id="Project" order="2" sideWeight="0.49879518" visible="true" weight="0.24932976" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3686747" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" weight="0.6012048" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43493977" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3867647" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67158175" weight="0.3529412" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.72289157" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32793522" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32428572" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.36746988" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49642345" weight="0.41686746" />
-      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32771084" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5028612" side_tool="true" weight="0.52771086" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.5020284" side_tool="true" weight="0.5048193" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.4979716" weight="0.63975906" />
-      <window_info anchor="bottom" id="File Transfer" order="14" weight="0.32891566" />
-      <window_info anchor="bottom" id="Statistic" order="15" weight="0.42289156" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49463806" weight="0.41501418" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" weight="0.32771084" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4966488" side_tool="true" weight="0.39518413" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.6461126" weight="0.49264705" />
+      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.32647058" />
+      <window_info anchor="bottom" id="Statistic" order="14" weight="0.42289156" />
+      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.5033512" weight="0.5411765" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="0" sideWeight="0.50120485" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49879518" weight="0.3297568" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.49879518" weight="0.32904148" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.49879518" weight="0.20042644" />
+      <window_info anchor="right" id="Remote Host" order="6" weight="0.3297568" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1033,13 +1088,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/scheduler/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -1050,23 +1098,26 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/toutiao_backend$test_sqlalchemys.coverage" NAME="test_sqlalchemys Coverage Results" MODIFIED="1567868737551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
-    <SUITE FILE_PATH="coverage/toutiao_backend$test.coverage" NAME="test Coverage Results" MODIFIED="1567475461138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/5-cache" />
-    <SUITE FILE_PATH="coverage/toutiao_backend$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1567867693243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/im" />
+    <SUITE FILE_PATH="coverage/toutiao_backend$test_sqlalchemys.coverage" NAME="test_sqlalchemys Coverage Results" MODIFIED="1575863550194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/toutiao_backend$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1567910255948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/im" />
+    <SUITE FILE_PATH="coverage/toutiao_backend$test.coverage" NAME="test Coverage Results" MODIFIED="1570195487394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/9_es" />
     <SUITE FILE_PATH="coverage/toutiao_backend$test_upload_api.coverage" NAME="test_upload.api Coverage Results" MODIFIED="1567338693110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/4_qiniuyun" />
     <SUITE FILE_PATH="coverage/toutiao_backend$test_sio.coverage" NAME="test_sio Coverage Results" MODIFIED="1567842407880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/8_sio" />
     <SUITE FILE_PATH="coverage/toutiao_backend$server.coverage" NAME="server Coverage Results" MODIFIED="1567764404062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/rpc" />
-    <SUITE FILE_PATH="coverage/toutiao_backend$test_sio_url.coverage" NAME="test_sio_url Coverage Results" MODIFIED="1567867990296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/8_sio" />
+    <SUITE FILE_PATH="coverage/toutiao_backend$test_sio_url.coverage" NAME="test_sio_url Coverage Results" MODIFIED="1567910280409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/8_sio" />
     <SUITE FILE_PATH="coverage/toutiao_backend$test_jwt.coverage" NAME="test_jwt Coverage Results" MODIFIED="1567157300812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/toutiao_backend$test_sqlalchemy.coverage" NAME="test_sqlalchemy Coverage Results" MODIFIED="1566651012233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/toutiao_backend$test_storage.coverage" NAME="test_storage Coverage Results" MODIFIED="1567228944908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/4_qiniuyun" />
     <SUITE FILE_PATH="coverage/toutiao_backend$test_f_01_jwt.coverage" NAME="test_f_01_jwt Coverage Results" MODIFIED="1567182153593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/test_jwt" />
     <SUITE FILE_PATH="coverage/toutiao_backend$client.coverage" NAME="client Coverage Results" MODIFIED="1567764446063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/rpc" />
+    <SUITE FILE_PATH="coverage/toutiao_backend$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1570260283198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/9_es" />
+    <SUITE FILE_PATH="coverage/toutiao_backend$Unittests_for_test_SuggestionTest.coverage" NAME="Unittests for test.SuggestionTest Coverage Results" MODIFIED="1570262016270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/10_unittest" />
     <SUITE FILE_PATH="coverage/toutiao_backend$aps_data.coverage" NAME="aps_data Coverage Results" MODIFIED="1567480541446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/6-aps" />
     <SUITE FILE_PATH="coverage/toutiao_backend$test_qiniuyun.coverage" NAME="test_qiniuyun Coverage Results" MODIFIED="1567301958013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/4_qiniuyun" />
     <SUITE FILE_PATH="coverage/toutiao_backend$3_redis_cluster.coverage" NAME="3_redis_cluster Coverage Results" MODIFIED="1567091224388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/2_redis" />
-    <SUITE FILE_PATH="coverage/toutiao_backend$main.coverage" NAME="main Coverage Results" MODIFIED="1567868378446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/toutiao_backend$main.coverage" NAME="main Coverage Results" MODIFIED="1570260265563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/toutiao_backend$im_server.coverage" NAME="im_server Coverage Results" MODIFIED="1567845105911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/im" />
+    <SUITE FILE_PATH="coverage/toutiao_backend$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1570262190504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/10_unittest" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1118,191 +1169,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/-649682988/-2096998483/click/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/resources/user/passport.py" />
-    <entry file="file://$PROJECT_DIR$/common/models/notice.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/recommend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/statistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2484" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/system.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1693" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/storage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utils/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/-649682988/-2096998483/sqlalchemy/orm/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="253" selection-start-line="253" selection-end-line="253" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/4_qiniuyun/test_qiniuyun.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/4_qiniuyun/test_upload.api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
-          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/5-cache/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/resources/user/profile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/-649682988/1646052553/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="298" selection-start-line="298" selection-end-line="298" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/cache/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/cache/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <element signature="e#324#2795#0" />
-            <element signature="e#2835#2950#0" />
-            <element signature="e#2991#3312#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/-649682988/-2096998483/apscheduler/executors/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/3_test_jwt/test_f_01_jwt.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scheduler/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/cache/statistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/-649682988/-2096998483/pip/_internal/req/req_tracker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/rpc/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/rpc/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#8#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/rpc/reco.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/rpc/reco_pb2_grpc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1348,60 +1214,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/settings/default.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/im/im_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
           <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/6-aps/aps_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/resources/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/resources/user/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="22" column="73" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1412,56 +1228,289 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/2_redis/2_test.sentinel.py">
+    <entry file="file://$PROJECT_DIR$/toutiao/resources/user/constants.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/2_redis/3_redis_cluster.py">
+    <entry file="file://$PROJECT_DIR$/toutiao/resources/user/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/1_sqlalchemy/test_sqlalchemy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-579" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/1_sqlalchemy/test_sqlalchemys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="293" column="45" lean-forward="true" selection-start-line="293" selection-start-column="45" selection-end-line="293" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/8_sio/test_sio_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/im/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="138">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="53" />
           <folding>
-            <element signature="e#89#126#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/toutiao_app.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/resources/user/following.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/celery_tasks/sms/dysms/sms_send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/9_es.py" />
+    <entry file="file://$PROJECT_DIR$/toutiao/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/10_unittest/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/celery_tasks/sms/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/celery_tasks/sms/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/celery_tasks/sms/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/celery_tasks/sms/dysms/aliyunsdkdysmsapi/request/v20170525/QueryInterSmsIsoInfoRequest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/cache/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#324#2795#0" />
+            <element signature="e#2835#2950#0" />
+            <element signature="e#2991#3312#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/9_es/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/9_es/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2_redis/test_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/resources/search/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/6-aps/aps_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/8_sio/test_sio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="529">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toutiao/resources/user/following.py">
+    <entry file="file://$PROJECT_DIR$/test/8_sio/test_sio_url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/1_sqlalchemy/test_sqlalchemy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/1_sqlalchemy/TEST.py" />
+    <entry file="file://$PROJECT_DIR$/test/2_redis/3_redis_cluster.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2_redis/2_test.sentinel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/2_redis/test_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/resources/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scheduler/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/im/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/cache/statistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/1_sqlalchemy/test_sqlalchemys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2333">
+          <caret line="307" column="21" selection-start-line="307" selection-start-column="21" selection-end-line="307" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/cache/constants.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/settings/testing.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/remote_sources/-649682988/-2096998483/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/settings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/4_qiniuyun/test_upload.api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/4_qiniuyun/test_qiniuyun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="e#657#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/settings/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1016">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/resources/search/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toutiao/resources/notice/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils/storage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
-            <element signature="e#15#26#0" expanded="true" />
+            <element signature="e#0#71#0" expanded="true" />
           </folding>
         </state>
       </provider>

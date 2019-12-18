@@ -7,7 +7,7 @@ from flask_restful.reqparse import RequestParser
 from flask import g, current_app
 
 
-class FollowingResource(Resource):
+class FollowingListResource(Resource):
 
     method_decorators = [login_required]
 

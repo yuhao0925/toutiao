@@ -168,9 +168,11 @@ def offset():
 @app.route('/limit')
 def limit():
     # limit(n) 自选取n个
-    rets = User.query.limit(2).all()
-    ret_dict = {ret.id:ret.name for ret in rets}
-    return jsonify(ret_dict)
+    rets = User.query.limit(5).all()
+    # ret_dict = {ret.id:ret.name for ret in rets}
+    # return jsonify(ret_dict)
+    return rets.name
+
 
 
 @app.route('/order_by')
@@ -295,6 +297,24 @@ def index():
     return jsonify(
         {rule.endpoint: rule.rule for rule in rules_iterator if rule.endpoint not in ('route_map', 'static')})
 
+@app.route('/offset_limit')
+def offset_limit():
+    rets = User.query.filter(not_(User.name.endswith('号'))).offset(2).limit(1).all()
+    return rets[0].name
+
+@app.route('/update1')
+def update1():
+    user = User.query.get(2)
+    user.name='yuhao'
+    db.session.add(user)
+    db.session.commit()
+    return 'aaaaa'
+
+@app.route('/delete1')
+def delete1():
+    user = User.query.filter(User.name=='18922222222').delete()
+    db.session.commit()
+    return 'delete'
 
 if __name__ == '__main__':
     # db.drop_all()  # 删除所有继承自db.Model的表

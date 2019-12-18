@@ -17,11 +17,11 @@ user_api.add_resource(passport.SMSVerificationCodeResource, '/v1_0/sms/codes/<mo
 user_api.add_resource(passport.AuthorizationResource, '/v1_0/authorizations',
                       endpoint='Authorization')
 
-# user_api.add_resource(following.FollowingListResource, '/v1_0/user/followings',
-#                       endpoint='Followings')
+user_api.add_resource(following.FollowingListResource, '/v1_0/user/followings',
+                      endpoint='Followings')
 
-user_api.add_resource(following.FollowingResource, '/v1_0/user/followings/<int(min=1):target>',
-                      endpoint='Following')
+# user_api.add_resource(following.FollowingResource, '/v1_0/user/followings/<int(min=1):target>',
+#                       endpoint='Following')
 
 # user_api.add_resource(following.FollowerListResource, '/v1_0/user/followers',
 #                       endpoint='Followers')

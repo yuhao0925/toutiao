@@ -28,7 +28,7 @@ redis_master.set('app:code:18922222222', '123456')
 # 构造raw application/json形式的请求体
 data = json.dumps({'mobile': '18911111111', 'code': '123456'})
 # requests发送 POST raw application/json 登录请求
-url = 'http://192.168.45.128:5000/v1_0/authorizations'
+url = 'http://192.168.2.133:5000/v1_0/authorizations'
 resp = requests.post(url, data=data, headers={'Content-Type': 'application/json'})
 # print(resp.json())
 a_token = resp.json()['data']['token']
@@ -37,7 +37,7 @@ a_token = resp.json()['data']['token']
 # 构造raw application/json形式的请求体
 data = json.dumps({'mobile': '18922222222', 'code': '123456'})
 # requests发送 POST raw application/json 登录请求
-url = 'http://192.168.45.128:5000/v1_0/authorizations'
+url = 'http://192.168.2.133:5000/v1_0/authorizations'
 resp = requests.post(url, data=data, headers={'Content-Type': 'application/json'})
 # print(resp.json())
 b_token = resp.json()['data']['token']
@@ -56,7 +56,7 @@ input('别忘了启动sio服务进程；'
 """A 发送关注B的请求"""
 #     a token requestHeaders
 #     b user_id POSTjsonbody
-url = 'http://192.168.45.128:5000/v1_0/user/followings'
+url = 'http://192.168.2.133:5000/v1_0/user/followings'
 headers = {'Authorization': 'Bearer {}'.format(a_token),
            'Content-Type': 'application/json'}
 import json
